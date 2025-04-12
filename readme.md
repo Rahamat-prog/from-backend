@@ -1,6 +1,7 @@
-# 📝 Simple Form Submission using Node.js and Express
+# 📝 Simple Form Submission using Node.js, Express & MongoDB
 
-This is a beginner-friendly project that demonstrates how to create a simple HTML form and handle the submitted data using Node.js and Express. Instead of using a database, the submitted form data is saved to a local text file (`submissions.txt`).
+This is a beginner-friendly project that demonstrates how to create a simple HTML form and handle submitted data using Node.js, Express, and MongoDB.  
+Instead of saving the data to a local text file, the form submissions are now stored in a **MongoDB database**.
 
 ---
 
@@ -8,9 +9,9 @@ This is a beginner-friendly project that demonstrates how to create a simple HTM
 
 - Basic HTML form with `username` and `email` fields  
 - Data handling using Express `POST` method  
-- Submitted data saved to a plain text file  
-- Uses built-in Node.js `fs` module  
-- Minimal and easy to understand
+- Submitted data stored in **MongoDB**  
+- Uses `Mongoose` for MongoDB interaction  
+- Clean and easy-to-understand code structure
 
 ---
 
@@ -19,10 +20,13 @@ This is a beginner-friendly project that demonstrates how to create a simple HTM
 - HTML  
 - Node.js  
 - Express.js  
-- File System (`fs` module)
+- MongoDB  
+- Mongoose
 
 ---
 
-📃 License
+📃 **License**  
 This project is open source and free to use for learning purposes.
+
+
 
